@@ -19,17 +19,17 @@ footer {
 main {
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba( 0,0,0,1)) , url(/Assets/Imgs/Background\ img\ POS\ project.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba( 0,0,0,1)) , url(https://i.postimg.cc/GhhJwjqN/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 
-        
-       
-    
+
 }
 
+
 body{
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-image: linear-gradient(to right, #bdc3c7  , #2c3e50);
 }
 
 h1{
@@ -131,7 +131,7 @@ h4{
 .img2 {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(/Assets/Imgs/Javascript\ Project\ Img2.jpg);
+    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(https://i.postimg.cc/tRZt8ygm/group-project-img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 
@@ -173,7 +173,7 @@ h4{
 .img3 {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(/Assets/Imgs/Javascript\ Project\ Img2.jpg);
+    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(https://i.postimg.cc/1Xqdzqr8/group-project-img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 
