@@ -10,32 +10,34 @@
     <link rel="stylesheet" href="../Styles/style.css">
     <title>Document</title>
 </head>
-<header>
-    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-        <a class="navbar-brand" href="../index.html">Navbar</a>
-        <ul class="nav nav-pills mx-auto">
-
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" style="font-size:x-large;" data-bs-toggle="dropdown" href="#" role="button"
-                    aria-expanded="false">Navigation</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/html/about.html">About</a></li>
-                    <li><a class="dropdown-item" href="/html/contact.html">Contact</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../index.html">Home</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
 
 <body>
 
     <div class="container-fluid">
         <div class="row d-flex flex-column flex-md-row">
             <div loading="lazy" class="img3">
+
+                <header>
+                    <nav id="navbar-example3" class="navbar px-3 mb-3  ">
+                        <a class="navbar-brand text-light" href="/index.html">Website Name</a>
+                        <ul class="nav nav-pills mx-auto">
+                           
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link navigation dropdown-toggle text-light"data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Navigation</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/html/about.html">About</a></li>
+                                    <li><a class="dropdown-item" href="/html/contact.html">Contact</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
                 <div class="contact-text col">
                     <h2 id="heading-contactpage" class="lead">Heading</h2>
                     <p class="contact-p-text col">Sub Text
@@ -45,7 +47,7 @@
 
         <section class="container">
             <div class="contact">
-                <h2 class="text-light">Contact me</h2>
+                <h2 class="text-light">Contact us </h2>
                 <form action="https://formspree.io/f/xbjbywjp" method="POST"><br>
                     <div>
                         <label class="text-light" for="#firstname" style="font-size:20px">Name</label>
@@ -80,21 +82,38 @@
 
 
 
-        <footer>
+        <nav class="navbar navbar-expand-lg text-light bg-black ">
+            <div class="container-fluid">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col order-last " >
+                    <p>&copy; Copyright 2022 | All Rights Reserved.</p><br>
+        
+                    </div>
+                    <div class="col">
+                    <h4>Contact :</h4><br>
+                    <p>
+                        website@gmail.com<br>
+                        Phone no. : 1234567890
 
-            <!-- As a heading -->
-            <nav class="navbar-footer bg-body-tertiary">
-                <div class="container-fluid">
-                    <span class="navbar-brand mb-0 h1">Copyright &copy 2022 <br>
-                        Address : <br> Cape Town<br>Lansdowne</span>
 
-
-                    </span>
-
+                    </p>
+                        <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="col order-first">
+                    <h4>Address :</h4><br>
+                    <p>South Africa<br>
+                    Cape Town<br>
+                    Lansdowne</p>
+                    </div>
                 </div>
-            </nav>
+                </div>
+            </div>
+        </div>
 
-        </footer>
+</div>
+</nav>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

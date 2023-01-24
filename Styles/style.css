@@ -28,7 +28,9 @@ main {
 
 body{
 
-    background-image: linear-gradient(to right, #bdc3c7  , #2c3e50);
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
 
 h1{
@@ -170,7 +172,7 @@ h4{
 .img3 {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(https://i.postimg.cc/1Xqdzqr8/group-project-img2.jpg);
+    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(https://i.postimg.cc/28hrJh95/charles-deloye-2-Rou-MSg9-Rnw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 
@@ -230,6 +232,16 @@ textarea:hover {
 
 .navigation ,.navbar-brand{
 
-    font-size: 30px;
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 450;
+    padding-top: 2rem;
 
 }
+
+.navigation{
+
+padding-right: 13rem;
+
+}
+
