@@ -19,16 +19,15 @@ footer {
 main {
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba( 0,0,0,1)) , url(https://i.postimg.cc/GhhJwjqN/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba( 0,0,0,1)) , url(https://i.postimg.cc/5NZrm9TL/group-project-img3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 
 
 }
 
-
 body{
-    /* background-color: rgba(0, 0, 0, 0.1); */
+
     background-image: linear-gradient(to right, #bdc3c7  , #2c3e50);
 }
 
@@ -92,9 +91,7 @@ h4{
     padding-left: 5rem;
 }
 
-.home-text{
-    margin-top: 100px;
-}
+
 
 
 /* /////////////////////////////////////////////////////////////////////// */
@@ -226,4 +223,13 @@ textarea:hover {
 }
 .button{
     padding-bottom: 2rem;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.navigation ,.navbar-brand{
+
+    font-size: 30px;
+
 }
