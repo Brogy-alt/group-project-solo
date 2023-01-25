@@ -19,7 +19,7 @@ footer {
 main {
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba( 0,0,0,1)) , url(https://i.postimg.cc/5NZrm9TL/group-project-img3.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba( 0,0,0,1)) , url(https://i.postimg.cc/tRZt8ygm/group-project-img1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 
@@ -31,22 +31,22 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: black;
+    overflow-x: hidden;
 }
 
-h1{
-    padding-top: 13rem;
-    font-size: 100px;
-}
 
 h2{
     padding-top: 2rem;
     font-size: 50px;
 }
  
-h1,h2,h3,h4,h5,p{
+h4,h5,p{
     color: white;
 }
 
+.modal-title {
+    color: black;
+}
 .navbar{
     height: 5rem;
 }
@@ -132,12 +132,12 @@ h4{
 .img2 {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(https://i.postimg.cc/tRZt8ygm/group-project-img1.jpg);
+    background: linear-gradient(rgba(176, 175, 175, 0), rgba( 0,0,0,1)) , url(https://i.postimg.cc/5NZrm9TL/group-project-img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 
     
-   
+    
 }
 
 /* /////////////////////////////////////////////////////////////////////// */
@@ -246,4 +246,77 @@ textarea:hover {
 padding-right: 13rem;
 
 }
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* content */
+
+.content{
+
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.resize {
+    width: 33.5rem;
+}
+
+/* cards */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    transform: rotateY(180deg);
+  }
+.flip-card{
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+.cards{
+
+    margin-top: 50rem;
+
+}
+
+
+
+
+
+
+
 
